@@ -1,3 +1,5 @@
 First hook - useState
 
 Problem - reusing logic, giant components, confusing classes
+
+Hooks allow you to use state and other React features without writing a class.
