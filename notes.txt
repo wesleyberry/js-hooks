@@ -3,3 +3,10 @@ First hook - useState
 Problem - reusing logic, giant components, confusing classes
 
 Hooks allow you to use state and other React features without writing a class.
+
+useState returns a pair: the current state value and a function that allows you to update it.
+    unlike this.setState, it does not merge the old and new state together
+
+useEffect adds the ability to perform side effects from a function component.
+    serves the same purpose at componentDidMount, componentDidUpdate, and componentWillUnmount
+    useEffect runs after every render and update
