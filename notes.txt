@@ -1,0 +1,3 @@
+First hook - useState
+
+Problem - reusing logic, giant components, confusing classes
